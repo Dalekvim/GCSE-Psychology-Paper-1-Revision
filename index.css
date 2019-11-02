@@ -1,5 +1,5 @@
 body {
-    background-color: deepskyblue;
+    background-color: blue;
     color: white;
     font-family: monospace;
 }
@@ -25,12 +25,12 @@ h1 {
 }
 
 h2 {
-    margin-left: 3%;
+    margin-left: 5%;
 }
 
 p {
     text-align: justify;
-    margin: 5%;
+    margin: 3%;
     font-weight: bolder;
 }
 
@@ -41,7 +41,7 @@ a {
     text-decoration: none;
 }
 a:visited {
-    color: deepskyblue;
+    color: dodgerblue;
 }
 a:hover {
     color: white;
