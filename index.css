@@ -4,12 +4,20 @@ body {
     font-family: monospace;
 }
 
+img {
+    width: 50%;
+    margin: 3%;
+    margin-top: 0%;
+    float: right;
+}
+
 .Main {
     outline: 2px solid white;
     width: 60%;
     position: absolute;
     left: 20%;
     margin-top: 2%;
+    height: 90%;
 }
 
 .Menu {
@@ -18,6 +26,7 @@ body {
     position: absolute;
     left: 2.5%;
     margin-top: 3%;
+    height: 85%;
 }
 
 h1 {
@@ -30,7 +39,8 @@ h2 {
 
 p {
     text-align: justify;
-    margin: 3%;
+    margin: 5%;
+    margin-top: 0%;
     font-weight: bolder;
 }
 
@@ -39,10 +49,4 @@ a {
     margin: 5%;
     font-weight: bolder;
     text-decoration: none;
-}
-a:visited {
-    color: dodgerblue;
-}
-a:hover {
-    color: white;
 }
