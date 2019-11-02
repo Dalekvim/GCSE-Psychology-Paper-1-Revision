@@ -1,5 +1,7 @@
 body {
     background-color: deepskyblue;
+    color: white;
+    font-family: monospace;
 }
 
 .Main {
@@ -12,15 +14,34 @@ body {
 
 .Menu {
     outline: 2px solid white;
-    width: 10%;
+    width: 15%;
     position: absolute;
+    left: 2.5%;
+    margin-top: 3%;
 }
 
 h1 {
     text-align: center;
 }
 
+h2 {
+    margin-left: 3%;
+}
+
 p {
     text-align: justify;
     margin: 5%;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    margin: 5%;
+}
+}
+a:visited {
+    color: deepskyblue;
+}
+a:hover {
+    color: white;
 }
