@@ -6,8 +6,7 @@ body {
 header {
     background-color: #694B7A;
     position: relative;
-    left: 2.5%;
-    width: 95%;
+    border-radius: 14px;
 }
 
 nav ul {
@@ -20,6 +19,7 @@ nav li {
     padding: 2%;
     background-color: #513463;
     border: 14px solid #694B7A;
+    border-radius: 28px;
 }
 
 
@@ -34,10 +34,15 @@ nav li:hover {
     background-color: #3F2051;
 }
 
+h1 {
+    
+}
+
 .logo {
     float: left;
     padding: 1%;
     width: 5.2%;
+    border-radius: 28px;
 }
 
 .main {
@@ -46,4 +51,5 @@ nav li:hover {
     position: fixed;
     margin-top: 1%;
     left: 10%;
+    border-radius: 14px;
 }
