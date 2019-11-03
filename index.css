@@ -21,6 +21,26 @@ img {
     overflow: auto;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 3%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: blue; 
+  }
+
 .Menu {
     outline: 2px solid white;
     width: 15%;
@@ -72,7 +92,7 @@ p {
 }
 
 a {
-    color: white;
+    color: blue;
     margin: 5%;
     font-weight: bolder;
     text-decoration: none;
