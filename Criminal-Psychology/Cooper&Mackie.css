@@ -1,10 +1,10 @@
 body {
-    background-color: #707C95;
+    background-color: #86B583;
     font-family: sans-serif;
 }
 
 header {
-    background-color: #4D5C7A;
+    background-color: #694B7A;
 }
 
 nav ul {
@@ -16,6 +16,14 @@ nav li {
     display: inline-block;
     margin-left: 5%;
     padding: 3%;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #876F95;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .logo {
