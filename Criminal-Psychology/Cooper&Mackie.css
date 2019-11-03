@@ -48,9 +48,15 @@ h1 {
 
 .main {
     width: 80%;
+    left: 10%;
     background-color: #707C95;
     position: fixed;
     margin-top: 1%;
-    left: 10%;
     border-radius: 14px;
+}
+
+.main img {
+    border-radius: 14px;
+    width: 90%;
+    left: ;
 }
