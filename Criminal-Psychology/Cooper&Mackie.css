@@ -1,70 +1,92 @@
 body {
-    background-color: #86B583;
     font-family: sans-serif;
+    margin: 0;
+    background-color: #72D66C;
 }
 
-header {
-    background-color: #694B7A;
-    position: relative;
-    border-radius: 14px;
-    width: 95%;
-    left: 2.5%;
+@media screen and (max-width: 1366px) {
+
+    header {
+        background-color: #294A92;
+        width: 1366px;
+    }
+
+    p {
+        margin: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .main h1 {
+        text-align: center;
+        padding: 2%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .logo {
+        width: 75px;
+        float: left;
+        padding: 12.5px;
+        border-radius: 25px;
+    }
+
+    .main {
+        background-color: white;
+        width: 75%;
+        left: 12.5%;
+        position: relative;
+    }
+
+    .life_joke_img {
+        width: 50%;
+        float: right;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #09245D;
+        border: 28px solid #425F9E;
+        border-radius: 12.5px;
+    }
+
+    nav li {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 28px solid #425F9E;
+        background-color: #425F9E;
+        border-radius: 12.5px;
+        margin: 12.5px;
+    }
+
+    nav a:hover {
+        color: #09245D;
+        border: 28px solid #6680B7;
+        background-color: #6680B7;
+    }
+}
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    
 }
 
-nav ul {
-    margin: 0%;
-    list-style: none;
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+
 }
 
-nav li {
-    display: inline-block;
-    padding: 2%;
-    background-color: #513463;
-    border: 14px solid #694B7A;
-    border-radius: 28px;
+/* iPhone 5 Landscape */
+@media screen and (max-width: 568px) {
+
 }
 
-
-nav a {
-    text-decoration: none;
-    color: #876F95;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-nav li:hover {
-    background-color: #3F2051;
-}
-
-h1 {
-    margin: 5%;
-    color: #2B0F3C;
-    margin-top: 3%;
-    margin-bottom: 2%;
-}
-
-.logo {
-    float: left;
-    padding: 2%;
-    height: 45px;
-    border-radius: 28px;
-}
-
-.main {
-    width: 80%;
-    left: 3%;
-    background-color: #707C95;
-    position: fixed;
-    margin-top: 1%;
-    border-radius: 14px;
-    overflow: auto;
-}
-
-.main img {
-    border-radius: 14px;
-    width: 50%;
-    margin: 5%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    float: right;
+/* Tabled Portrait */
+@media screen and (max-width: 320px) {
+    
 }
