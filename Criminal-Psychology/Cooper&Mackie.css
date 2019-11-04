@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     background-color: #72D66C;
+    overflow: auto;
 }
 
 @media screen and (max-width: 1366px) {
@@ -15,6 +16,7 @@ body {
         margin: 0;
         margin-left: 5%;
         margin-right: 5%;
+        padding-bottom: 5%;
         line-height: 25px;
         text-align: justify;
     }
@@ -22,8 +24,7 @@ body {
     .main h1 {
         text-align: center;
         padding: 2%;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        margin-top: 3%;
     }
 
     .logo {
@@ -36,7 +37,7 @@ body {
     .main {
         background-color: white;
         width: 75%;
-        left: 12.5%;
+        left: 3%;
         position: relative;
     }
 
@@ -51,7 +52,14 @@ body {
         text-decoration: none;
         color: #09245D;
         border: 28px solid #425F9E;
+        background-color: #425F9E;
         border-radius: 12.5px;
+    }
+
+    nav a:hover {
+        color: #09245D;
+        border: 28px solid #6680B7;
+        background-color: #6680B7;
     }
 
     nav li {
@@ -59,16 +67,11 @@ body {
         text-decoration: none;
         font-weight: bold;
         text-transform: uppercase;
-        border: 28px solid #425F9E;
-        background-color: #425F9E;
+        border: 28px solid #294A92;
         border-radius: 12.5px;
         margin: 12.5px;
-    }
-
-    nav a:hover {
-        color: #09245D;
-        border: 28px solid #6680B7;
-        background-color: #6680B7;
+        border-right: 0;
+        border-left: 0;
     }
 }
 /* Tablet Landscape */
