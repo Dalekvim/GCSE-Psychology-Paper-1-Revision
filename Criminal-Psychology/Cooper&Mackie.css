@@ -89,7 +89,12 @@ body {
 
 }
 
-/* Tabled Portrait */
+/* iPhone 5 Portrait */
 @media screen and (max-width: 320px) {
-    
+    header {
+        width: 100%;
+    }
+    .main {
+        width: 100%;
+    }
 }
