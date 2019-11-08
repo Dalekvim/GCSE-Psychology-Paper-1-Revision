@@ -163,3 +163,170 @@ body {
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 }
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #72D66C;
+    overflow: auto;
+}
+
+@media screen and (max-width: 1920px) {
+
+    header {
+        background-color: #294A92;
+        width: 100%;
+    }
+
+    .dropbtn {
+        position: fixed;
+        height: 0;
+        font-size: 0;
+        visibility: hidden;
+    }
+
+    p {
+        margin: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 5%;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .main h1 {
+        text-align: center;
+        padding: 2%;
+        margin-top: 3%;
+    }
+
+    .logo {
+        width: 75px;
+        float: left;
+        padding: 12.5px;
+        border-radius: 25px;
+    }
+
+    .main {
+        background-color: white;
+        width: 75%;
+        left: 3%;
+        position: relative;
+    }
+
+    .life_joke_img {
+        width: 50%;
+        float: right;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #09245D;
+        border: 29px solid #425F9E;
+        background-color: #425F9E;
+        border-radius: 12.5px;
+    }
+
+    nav a:hover {
+        color: #09245D;
+        border: 29px solid #6680B7;
+        background-color: #6680B7;
+    }
+
+    nav li {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 29px solid #294A92;
+        border-radius: 12.5px;
+        margin: 12.5px;
+        border-right: 0;
+        border-left: 0;
+    }
+}
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    header {
+    width: 100%;
+    overflow: visible;
+    }
+
+    .main {
+    width: 100%;
+    left: 0;
+    }
+
+    .main h1 {
+    margin-top: 0;
+    }
+
+    .logo {
+    width: 50px;
+    border-radius: 14;
+    padding: 13px;
+    }
+
+    nav a {
+    border: 12px solid #425F9E;
+    border-radius: 0;
+    text-decoration: none;
+    display: block;
+    }
+
+    nav a:hover {
+    border: 12px solid #6680B7;
+    border-radius: 0;
+    }
+
+    nav li {
+    border: 0px solid #6680B7;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 0;
+    font-size: small;
+    width: 100%;
+    }
+
+    /* Dropdown Button */
+.dropbtn {
+    position: relative;
+    margin: 12.5px;
+    border-radius: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #7A3D9E !important;
+    color: #521377;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    visibility: visible;
+    width: 200px;
+    height: auto;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    /*position: relative;*/
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  nav {
+    display: none;
+    position: absolute;
+    max-width: 223px;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover nav {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+}
+>>>>>>> 15a8acee99f15a036b78b524734cc2c321652f9b

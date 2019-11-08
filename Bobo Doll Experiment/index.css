@@ -1,0 +1,94 @@
+:root{
+    --buttonWidth: 200px;
+    --buttonHeight: 25px;
+    --borderWidth: 2px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100% - var(--borderWidth);
+    height: 75px;
+    border: var(--borderWidth) solid black;
+}
+
+.logo {
+    width: 75px;
+    height: auto;
+    border-right: var(--borderWidth) solid black;
+}
+
+image a {
+    text-decoration: none;
+    position: absolute;
+}
+
+button{
+    width: var(--buttonWidth);
+    height: var(--buttonHeight);
+}
+
+.menuContainer {
+    position: relative;
+    width: var(--buttonWidth);
+    height: var(--buttonHeight);
+    left: 94px;
+    border: var(--borderWidth) solid black;
+    bottom: 56px;
+}
+
+#dropdownList a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+li{
+    display: block;
+    border: var(--borderWidth) solid black;
+}
+
+#dropdownList {
+    visibility: hidden;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+    width: 204px;
+    position: relative;
+    right: var(--borderWidth);
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 5%;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#batman-smacking-robin {
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: right;
+}
+
+@media only screen and (min-width: 1025px) {
+    .main {
+        border: var(--borderWidth) solid black;
+        width: 80%;
+        position: relative;
+        left: 10%;
+        top: 10px;
+    }
+}
