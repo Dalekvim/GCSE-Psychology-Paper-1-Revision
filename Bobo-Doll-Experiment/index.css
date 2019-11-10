@@ -81,6 +81,7 @@ p {
     margin-left: 5%;
     margin-right: 5%;
     float: right;
+    border: var(--borderWidth) solid black;
 }
 
 @media only screen and (min-width: 1025px) {
